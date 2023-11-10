@@ -1,0 +1,20 @@
+print('Code 1')
+print('*' * 30)
+name = input('Enter your name --> ')
+favouritecolour = input('Enter your favourite colour --> ')
+print(name + ' likes ' + favouritecolour)
+print('*' * 30)
+print('Code 2')
+print('*' * 30)
+Birth_year = input('Enter your Birth Year --> ')
+print('Before conversion ->',type(Birth_year))
+age = 2023 - int(Birth_year) # Its a function alike input and print that helps converting string to number.
+print('Your age according to your birth year is --> ', age)
+print('After conversion ->',type(age))
+print('*' * 30)
+print('code 3')
+print('*' * 30)
+Weight = input('Please enter your weight in Pounds -> ')
+# converting weight into kilograms from pounds....
+userweight = int(Weight) * 0.45
+print('Converted your weight from pounds to kilogram --> ' , userweight ,'kg Petu Kum Khaya Kar :) ')
